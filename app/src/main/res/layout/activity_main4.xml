@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Избранное"
+            android:textColor="#2B70A8"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#000000"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Мониторинг здоровья"
+                android:textColor="#2B70A8"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img_1"
+                android:scaleType="centerCrop"
+                android:background="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Запись в поликлинику"
+                android:textColor="#2B70A8"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/img_2"
+                android:scaleType="centerCrop"
+                android:background="#000000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Устройства для мониторинга"
+                android:textColor="#2B70A8"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите текст"
+                android:textColor="#2B70A8"
+                android:textSize="12dp"
+                android:padding="16dp" />
+            <Button
+                android:id="@+id/Add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Добавить обсуждение"
+                android:backgroundTint="#2B70A8"
+                android:textAllCaps="false"
+                 />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
